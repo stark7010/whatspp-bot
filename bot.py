@@ -16,6 +16,8 @@ time.sleep(2)
 user = driver.find_element_by_xpath("//span[@title='{}']".format(contact_name))
 user.click()
 chat = driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
-for i in range(500):
-    chat.send_keys("Guess who learned to automate whatsapp using Python") 
+for i in range(500): #replace 500 with the number of times you want to send the message
+    chat.send_keys("Guess who learned to automate whatsapp using Python") #replace this with whatever message you want to send
     chat.send_keys(Keys.RETURN)
+
+#Hope you enjoyed using this fun bot!
