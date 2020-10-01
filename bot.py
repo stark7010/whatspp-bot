@@ -21,5 +21,3 @@ for i in range(500): #replace 500 with the number of times you want to send the 
     chat.send_keys(Keys.RETURN)
 
 #Hope you enjoyed using this fun bot!
-#future work: 1)send the messages at a specified time
-#             2)Remove the need to scan the QR code everytime the script is used
